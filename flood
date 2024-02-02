@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Enter Ip Target:"
+read Target
+sudo su 
+ping -f $Target &
